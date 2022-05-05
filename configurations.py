@@ -4,4 +4,4 @@ xml_val = 'http://www.cbr.ru/scripts/XML_val.asp?d=0'
 valuta = 'http://www.cbr.ru/StaticHtml/File/92172/Valuta.xsd'
 val_full = 'http://www.cbr.ru/scripts/XML_valFull.asp'
 
-status_code = 200
+expected_status_code = 200

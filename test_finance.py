@@ -1,6 +1,5 @@
 # Импортируем зависимости
 from required import *
-# from functions import *
 from src.enum.global_enums import GlobalErrorMessages as GEM
 
 
@@ -15,7 +14,7 @@ def test_status_code():
 
     for link in list_links:
         responce = requests.get(link)
-        assert responce.status_code == status_code, GEM.WRONG_STATUS_CODE.value
+        assert responce.status_code == expected_status_code, GEM.WRONG_STATUS_CODE.value
 
 
 # Сравнимаем XML файл ежедневных котировок с XSD схемой
