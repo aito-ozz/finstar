@@ -1,0 +1,4 @@
+__pycache__
+.pytest_cache
+src\enum\__pycache__
+.idea
